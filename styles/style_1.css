@@ -1,11 +1,15 @@
 .sidebar {
-  width: 200px;
+  width: 25%; /* same width as menu */
   height: 100%;
   background-color: #eee;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
 }
 
 .vertical-menu {
-  width: 200px; /* Set a width if you like */
+  width: 100%; /* Same as sidebar */
 }
 
 .vertical-menu a {
