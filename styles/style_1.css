@@ -1,9 +1,16 @@
 .header {
-  padding: 60px;
+  /*padding: 60px;*/
+  top: 0;
+  position: fixed;
   text-align: center;
   background: #1abc9c;
   color: white;
   font-size: 30px;
+  height: 350px;
+  width: 100%;
+  margin-left: 200px;*/
+  overflow-x: hidden;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .sidebar {
@@ -22,7 +29,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
-  margin-bottom: 15%;
+  margin-bottom: 30%;
   border-radius: 50%;
 }
 
