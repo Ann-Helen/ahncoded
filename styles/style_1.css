@@ -69,6 +69,7 @@ h2 {
 
 .vertical-menu {
   width: 100%; /* Same as sidebar */
+  padding-bottom: 50px;
 }
 
 .vertical-menu a {
@@ -96,6 +97,28 @@ h2 {
   border-bottom: 3px solid black;
   border-right: 3px solid black;
 
+}
+
+.button {
+  text-decoration: none;
+  color: rgb(78, 178, 187);
+  padding: 10px;
+  background-color: rgb(53, 57, 65);
+  border-radius: 15px;
+  margin-left: 100px;
+}
+
+.button:hover {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  background-color: rgb(135, 143, 149);
+  border-radius: 15px;
+  margin-left: 100px;
+  box-shadow:
+  0 0 5px white,            /* outer white */
+  -5px 0 5px green,        /* outer left magenta */
+  5px 0 5px purple;         /* outer right cyan */
 }
 
 .main {
